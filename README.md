@@ -5,6 +5,47 @@
 This file will become your README and also the index of your
 documentation.
 
+# ERTI Notes
+
+- make sure venv is activated
+- nbdev_export works
+- nbdev_preview works also
+
+### Some usefull tipps:
+
+- Most used:
+  - `nbdev_export`
+  - `nbdev_test`
+  - `nbdev_preview`: Shows live docs (put sometimes update with `nbdev_docs`)
+  - `nbdev_docs`
+- all CLI commands: https://nbdev.fast.ai/api/cli.html#chelp
+- `nbdev_prepare` bundles the following commands:
+  - `nbdev_export`: Builds the .py modules from Jupyter notebooks
+  - `nbdev_test`: Tests your notebooks
+  - `nbdev_clean`: Cleans your notebooks to get rid of extreanous output
+    for git
+  - `nbdev_readme`: Updates your repo’s README.md file from your index
+    notebook.
+
+
+  
+Place this in last cell to autom. execute `nbdev_export` when running
+the whole notebook (or this cell)
+
+``` pyton
+#| hide
+import nbdev; nbdev.nbdev_export()
+```
+
+All directives: <https://nbdev.fast.ai/explanations/directives.html>
+e.g.  - `#|echo: <true|false>` Toggle the visibility of code-cell
+inputs. - `#|output: <true|false|asis>` Setting this to false hides the
+output of a cell. Setting this to asis renders the output as raw
+markdown.
+
+**Things you might not know you can do with nbdev**:
+https://pete88b.github.io/fastpages/nbdev/fastai/jupyter/2020/07/24/nbdev-deep-dive.html
+
 ## Install
 
 ``` sh

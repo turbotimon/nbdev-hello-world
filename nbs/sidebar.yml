@@ -6,6 +6,9 @@ website:
       - 01_core_mixin.ipynb
       - 02_optuna_test.ipynb
       - 03_nested.ipynb
+      - section: four
+        contents:
+          - four/04_nested_in_folder.ipynb
       - section: test
         contents:
           - test/test.ipynb
