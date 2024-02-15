@@ -7,5 +7,5 @@ __all__ = ['foo', 'foo_core_mixin']
 def foo(): pass
 
 # %% ../nbs/01_core_mixin.ipynb 3
-def foo_core_mixin():
+def foo_core_mixin(): # will get exported to core
     pass

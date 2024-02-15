@@ -1,0 +1,11 @@
+{"op_code": 0, "worker_id": "fe921837-21b0-43a9-abe9-fc3b72d7c26b-140389288507200", "study_name": "example-study2", "directions": [1]}
+{"op_code": 4, "worker_id": "fe921837-21b0-43a9-abe9-fc3b72d7c26b-140389288507200", "study_id": 0, "datetime_start": "2024-02-12T09:22:55.845848"}
+{"op_code": 5, "worker_id": "fe921837-21b0-43a9-abe9-fc3b72d7c26b-140389288507200", "trial_id": 0, "param_name": "x", "param_value_internal": -7.707009604600453, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": -10.0, \"high\": 10.0, \"log\": false}}"}
+{"op_code": 6, "worker_id": "fe921837-21b0-43a9-abe9-fc3b72d7c26b-140389288507200", "trial_id": 0, "state": 1, "values": [94.22603546380543], "datetime_complete": "2024-02-12T09:22:55.848013"}
+{"op_code": 4, "worker_id": "fe921837-21b0-43a9-abe9-fc3b72d7c26b-140389288507200", "study_id": 0, "datetime_start": "2024-02-12T09:22:55.849914"}
+{"op_code": 5, "worker_id": "fe921837-21b0-43a9-abe9-fc3b72d7c26b-140389288507200", "trial_id": 1, "param_name": "x", "param_value_internal": 9.116545138665014, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": -10.0, \"high\": 10.0, \"log\": false}}"}
+{"op_code": 6, "worker_id": "fe921837-21b0-43a9-abe9-fc3b72d7c26b-140389288507200", "trial_id": 1, "state": 1, "values": [50.645214710656646], "datetime_complete": "2024-02-12T09:22:55.851363"}
+{"op_code": 4, "worker_id": "fe921837-21b0-43a9-abe9-fc3b72d7c26b-140389288507200", "study_id": 0, "datetime_start": "2024-02-12T09:22:55.853074"}
+{"op_code": 5, "worker_id": "fe921837-21b0-43a9-abe9-fc3b72d7c26b-140389288507200", "trial_id": 2, "param_name": "x", "param_value_internal": 8.510207746859372, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": -10.0, \"high\": 10.0, \"log\": false}}"}
+{"op_code": 6, "worker_id": "fe921837-21b0-43a9-abe9-fc3b72d7c26b-140389288507200", "trial_id": 2, "state": 1, "values": [42.38280490726778], "datetime_complete": "2024-02-12T09:22:55.854768"}
+{"op_code": 0, "worker_id": "54577328-6334-469c-9f97-29834daf2417-139910395553600", "study_name": "example-study2", "directions": [1]}

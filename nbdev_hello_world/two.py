@@ -4,5 +4,5 @@
 __all__ = ['foo_two']
 
 # %% ../nbs/01_core_mixin.ipynb 4
-def foo_two():
+def foo_two(): # will get exported to two
     pass

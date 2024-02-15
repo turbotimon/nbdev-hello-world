@@ -3,3 +3,9 @@ website:
     contents:
       - index.ipynb
       - 00_core.ipynb
+      - 01_core_mixin.ipynb
+      - 02_optuna_test.ipynb
+      - 03_nested.ipynb
+      - section: test
+        contents:
+          - test/test.ipynb
